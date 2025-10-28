@@ -36,6 +36,16 @@ class _GameScreenState extends State<GameScreen> {
 
   // كلمات اللعبة مع صورة وصوت
   final List<Map<String, String>> _words = [
+      {
+      'word': 'البحر',
+      'image': 'assets/images/q2.jpg',
+      'audio': 'assets/sounds/البحر.mp3',
+    },
+    {
+      'word': 'البيت',
+      'image': 'assets/images/q3.jpg',
+      'audio': 'assets/sounds/البيت.mp3',
+    },
     {
       'word': 'الدرس',
       'image': 'assets/images/a.jpg',
@@ -97,6 +107,11 @@ class _GameScreenState extends State<GameScreen> {
       'audio': 'assets/sounds/الظرف.mp3',
     },
     {
+      'word': 'العشب',
+      'image': 'assets/images/q4.jpg',
+      'audio': 'assets/sounds/العشب.mp3',
+    },
+    {
       'word': 'اللسان',
       'image': 'assets/images/m.jpg',
       'audio': 'assets/sounds/اللسان.mp3',
@@ -106,35 +121,17 @@ class _GameScreenState extends State<GameScreen> {
       'image': 'assets/images/n.jpg',
       'audio': 'assets/sounds/اللغة.mp3',
     },
-    {
-      'word': 'القمر',
-      'image': 'assets/images/q1.jpg',
-      'audio': 'assets/sounds/القمر.mp3',
-    },
-    {
-      'word': 'البحر',
-      'image': 'assets/images/q2.jpg',
-      'audio': 'assets/sounds/البحر.mp3',
-    },
-    {
-      'word': 'البيت',
-      'image': 'assets/images/q3.jpg',
-      'audio': 'assets/sounds/البيت.mp3',
-    },
-    {
-      'word': 'العشب',
-      'image': 'assets/images/q4.jpg',
-      'audio': 'assets/sounds/الحقل.mp3',
-    },
-    {
-      'word': 'الماء',
-      'image': 'assets/images/q5.jpg',
-      'audio': 'assets/sounds/الماء.mp3',
-    },
+    
+  
     {
       'word': 'الليل',
       'image': 'assets/images/w.jpeg',
       'audio': 'assets/sounds/الليل.mp3',
+    },
+      {
+      'word': 'الماء',
+      'image': 'assets/images/q5.jpg',
+      'audio': 'assets/sounds/الماء.mp3',
     },
     {
       'word': 'النجم',
